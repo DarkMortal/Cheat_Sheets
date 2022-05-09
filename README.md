@@ -28,3 +28,9 @@
       
       docker login --username=YOUR_USERNAME
   Enter the password when prompted
+- Pushing an image to Docker Hub:
+
+      docker tag local_ImageName/id_to_be_pushed username/dockerhubImageName
+- Pulling an image from Docker Hub:
+
+      docker pull username/baseimage:tag
